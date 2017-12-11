@@ -46,6 +46,8 @@ int main()
         printf("\nAngka Tebak : %d\n",nomor);
         printf("\nTebakanmu salah!!!\n");
         printf("\n==================\n");
+        getch();
+        printf("Contribute By @mfarchana, @progressriski, @reovaldo, @haqqer\n");
     }
 
     return 0;
