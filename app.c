@@ -5,12 +5,15 @@
 
 int main()
 {
+    //Aan Revisi 1.1
     srand(time(NULL));
     int tebak,jml_tebakan=0;
     int nomor = rand() % 100;
-    printf ("Random Number: %d\n", nomor);
-
-
+    int count;
+    ///Hidden Random Number
+    //printf ("Random Number: %d\n\n", nomor);
+    printf("Ayo main tebak angka\n\n");
+    count=5;
     while(jml_tebakan<5)
     {
         printf("Masukan nomor tebakan mu : ");scanf("%d", &tebak);
@@ -26,14 +29,24 @@ int main()
         }
         else
         {
+            printf("\n==================\n");
+            printf("\nAngka Tebak : %d\n",nomor);
             printf("Selamat Tebakanmu benar!\n");
+            printf("\n==================\n");
             break;
         }
+    count-=1;
+        if(count<5&&count>0){
+                printf("Sisa tebakanmu %d kali lagi, ayo semangat !\n\n",count);
+            }
     }
-    jml_tebakan++; //Aan Revisi 1.0
+    jml_tebakan++;
     if(jml_tebakan>5)
     {
-        printf("\nTebakan mu salah!!!\n");
+        printf("\n==================\n");
+        printf("\nAngka Tebak : %d\n",nomor);
+        printf("\nTebakanmu salah!!!\n");
+        printf("\n==================\n");
     }
 
     return 0;
