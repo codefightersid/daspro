@@ -5,14 +5,13 @@
 
 int main()
 {
-    //Aan Revisi 1.1
+    //Contribute By @mfarchana, @progressriski, @reovaldo, @haqqer
     srand(time(NULL));
     int tebak,jml_tebakan=0;
     int nomor = rand() % 100;
     int count;
-    ///Hidden Random Number
-    //printf ("Random Number: %d\n\n", nomor);
     printf("Ayo main tebak angka\n\n");
+    printf("Aku adalah angka antara 0 - 100, siapakah aku?\n")
     count=5;
     while(jml_tebakan<5)
     {
