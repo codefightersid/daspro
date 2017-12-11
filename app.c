@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
-
+#include <string.h>
 int main()
 {
     //Contribute By @mfarchana, @progressriski, @reovaldo, @haqqer
@@ -46,7 +46,6 @@ int main()
         printf("\nAngka Tebak : %d\n",nomor);
         printf("\nTebakanmu salah!!!\n");
         printf("\n==================\n");
-        getch();
         printf("Contribute By @mfarchana, @progressriski, @reovaldo, @haqqer\n");
     }
 
