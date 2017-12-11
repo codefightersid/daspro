@@ -9,8 +9,8 @@ int main()
     int tebak,jml_tebakan=0;
     int nomor = rand() % 100;
     printf ("Random Number: %d\n", nomor);
-    
-    
+
+
     while(jml_tebakan<5)
     {
         printf("Masukan nomor tebakan mu : ");scanf("%d", &tebak);
@@ -30,10 +30,11 @@ int main()
             break;
         }
     }
+    jml_tebakan++; //Aan Revisi 1.0
     if(jml_tebakan>5)
     {
-        printf("Tebakan mu salah\n");
+        printf("\nTebakan mu salah!!!\n");
     }
-    
+
     return 0;
 }
