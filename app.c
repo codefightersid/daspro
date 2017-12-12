@@ -8,8 +8,9 @@ int main()
     //Contribute By @mfarchana, @progressriski, @reovaldo, @haqqer
     srand(time(NULL));
     int tebak,jml_tebakan=0;
-    int nomor = rand() % 100;
+    int nomor = rand() % 50;
     int count;
+    printf("%d\n", nomor);
     printf("Ayo main tebak angka\n\n");
     printf("Aku adalah angka antara 0 - 100, siapakah aku?\n");
     count=5;
