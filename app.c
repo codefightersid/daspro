@@ -10,9 +10,9 @@ int main()
     int tebak,jml_tebakan=0;
     int nomor = rand() % 50;
     int count;
-    printf("%d\n", nomor);
+    //printf("%d\n", nomor); Hidden jawaban
     printf("Ayo main tebak angka\n\n");
-    printf("Aku adalah angka antara 0 - 100, siapakah aku?\n");
+    printf("Aku adalah angka antara 0 - 50, siapakah aku?\n");
     count=5;
     while(jml_tebakan<5)
     {
