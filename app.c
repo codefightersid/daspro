@@ -11,7 +11,12 @@ int main()
     int nomor = rand() % 50;
     int count;
     //printf("%d\n", nomor); Hidden jawaban
-    printf("Ayo main tebak angka\n\n");
+    printf("\t\t==================================\n");
+    printf("\t\t||\t\t\t\t||\n");
+    printf("\t\t||\tGAME TEBAK ANGKA\t||\n");
+    printf("\t\t||\t\t\t\t||\n");
+    printf("\t\t==================================\n\n");
+    printf("Ayo Main Tebak Angka!\n\n");
     printf("Aku adalah angka antara 0 - 50, siapakah aku?\n");
     count=5;
     while(jml_tebakan<5)
@@ -47,7 +52,9 @@ int main()
         printf("\nAngka Tebak : %d\n",nomor);
         printf("\nTebakanmu salah!!!\n");
         printf("\n==================\n");
-        printf("Mereka By @mfarchana, @progressriski, @reovaldo, @haqqer\n");
+        getch();
+        system("cls");
+        printf("Contribute By @mfarchana, @progressriski, @reovaldo, @haqqer\n");
     }
 
     return 0;
